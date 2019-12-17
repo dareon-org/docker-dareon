@@ -1,7 +1,6 @@
-# Data Reviews Online
-# Deployment Instructions
+# Data Reviews Online: Deployment Instructions
 
-## Deployment
+## Install Docker
 ### Centos 7
 ```console
 yum -y update
@@ -23,7 +22,7 @@ docker-compose up -d --build
 ```
 
 ### Troubleshooting
-#### docker commands
+a. _docker commands_
 ```console
 docker-compose ps         # check processes
 docker-compose logs web	  # check log of web process
@@ -32,14 +31,14 @@ docker-compose down       # shutdown processes
 docker-compose up -d      # start processes, without rebuild
 ```
 
-#### check configuration file
+b. _check configuration file_
 ```console
 cat docker-compose.yml
 ```
 
 ### Test Users
-| Username | Password |
-| -------- | -------- |
-| admin@dareon.org | admin |
-| repoowner@rmit.edu.au | repoowner |
-| dataowner@rmit.edu.au | dataowner |
+Username | Password
+--- | ---
+admin@dareon.org | admin
+repoowner@rmit.edu.au | repoowner
+dataowner@rmit.edu.au | dataowner
