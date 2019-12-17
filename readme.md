@@ -14,14 +14,14 @@ apt-get update
 apt-get install -y docker docker-compose
 ```
 
-### Deploy Dareon
+## Deploy Dareon
 ```console
 git clone https://www.github.com/dareon-org/docker-dareon
 cd docker-dareon/docker
 docker-compose up -d --build
 ```
 
-### Troubleshooting
+## Troubleshooting
 a. _docker commands_
 ```console
 docker-compose ps         # check processes
@@ -36,7 +36,7 @@ b. _check configuration file_
 cat docker-compose.yml
 ```
 
-### Test Users
+## Test Users
 Username | Password
 --- | ---
 admin@dareon.org | admin
