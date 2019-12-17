@@ -1,14 +1,14 @@
 # Data Reviews Online: Deployment Instructions
 
 ## Install Docker
-### Centos 7
+a. on Centos 7
 ```console
 yum -y update
 yum -y install docker docker-compose
 service docker start
 ```
  
-### Ubuntu 16.04 (Xenial)
+b. on Ubuntu 16.04 (Xenial)
 ```console
 apt-get update
 apt-get install -y docker docker-compose
